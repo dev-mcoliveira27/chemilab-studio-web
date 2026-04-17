@@ -1,0 +1,49 @@
+{
+  "APP": {
+    "TITLE": "ChemiLab Studio",
+    "SUBTITLE": "Editor Molecular"
+  },
+  "NAV": {
+    "PERIODIC_TABLE": "Tabela Periódica",
+    "LABORATORY": "Laboratório"
+  },
+  "PAGE_HEADER": {
+    "TITLE_PART_1": "Matriz",
+    "TITLE_PART_2": "Elementar",
+    "DESCRIPTION": "Uma visão abrangente de todos os 118 elementos conhecidos. Explore propriedades, configurações e famílias químicas na nossa matriz de alta fidelidade."
+  },
+  "SEARCH": {
+    "ACTIVE_ELEMENT": "Elemento Ativo",
+    "NONE_SELECTED": "Nenhum selecionado"
+  },
+  "LEGEND": {
+    "DATA_EXPORT": "Exportar Dados",
+    "SHORTCUTS": "Atalhos"
+  },
+  "CATEGORY": {
+    "REACTIVE_NONMETALS": "Não-metais Reativos",
+    "NOBLE_GASES": "Gases Nobres",
+    "ALKALI_METALS": "Metais Alcalinos",
+    "ALKALINE_EARTH": "Metais Alcalinoterrosos",
+    "METALLOIDS": "Metaloides",
+    "TRANSITION_METALS": "Metais de Transição",
+    "POST_TRANSITION": "Metais Pós-Transição",
+    "LANTHANIDES": "Lantanídeos",
+    "ACTINIDES": "Actinídeos"
+  },
+  "PANEL": {
+    "LIVE_SIMULATION": "Simulação ao Vivo",
+    "ATOMIC_WEIGHT": "Peso Atômico",
+    "MELTING_POINT": "Ponto de Fusão",
+    "BOILING_POINT": "Ponto de Ebulição",
+    "SHELL_CONFIG": "Config. de Camada",
+    "CHEMICAL_LAB": "Laboratório Químico",
+    "SIMULATE_REACTIONS_1": "Simule as reações de",
+    "SIMULATE_REACTIONS_2": "no ambiente virtual.",
+    "START_EXPERIMENT": "Iniciar Experimento",
+    "SELECT_PROMPT": "Selecione um elemento da tabela periódica para ver seus detalhes."
+  },
+  "GRID": {
+    "F_BLOCK_SERIES": "Série do Bloco F"
+  }
+}

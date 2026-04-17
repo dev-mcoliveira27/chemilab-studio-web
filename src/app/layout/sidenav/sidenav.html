@@ -1,0 +1,51 @@
+<aside class="flex flex-col fixed left-0 top-0 h-screen w-64 py-8 px-4 bg-surface-container-lowest border-r border-outline-variant/10 z-50 shadow-[40px_0_40px_-40px_rgba(129,236,255,0.08)]">
+  <!-- Branding -->
+  <div class="mb-12 px-2">
+    <h1 class="text-xl font-bold tracking-tight font-headline text-primary">{{ 'APP.TITLE' | translate }}</h1>
+    <p class="text-xs text-outline font-label tracking-widest uppercase mt-1">{{ 'APP.SUBTITLE' | translate }}</p>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="flex flex-col space-y-2">
+    <a
+      routerLink="/"
+      routerLinkActive="nav-active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="nav-item"
+    >
+      <span class="material-symbols-outlined">grid_view</span>
+      <span class="font-headline tracking-tight">{{ 'NAV.PERIODIC_TABLE' | translate }}</span>
+    </a>
+
+    <a
+      routerLink="/laboratory"
+      routerLinkActive="nav-active"
+      class="nav-item"
+    >
+      <span class="material-symbols-outlined">science</span>
+      <span class="font-headline tracking-tight">{{ 'NAV.LABORATORY' | translate }}</span>
+    </a>
+  </nav>
+
+  <!-- Language Selector -->
+  <div class="mt-auto px-4 py-6 rounded-xl bg-surface-container-low/50">
+    <div class="flex items-center gap-2 mb-3">
+      <span class="material-symbols-outlined text-sm text-primary">translate</span>
+      <p class="text-[10px] text-outline uppercase tracking-widest">Idioma / Language</p>
+    </div>
+    <div class="relative w-full">
+      <select 
+        class="w-full appearance-none bg-surface-container-highest text-on-surface text-sm border border-outline-variant/30 rounded-lg pl-3 pr-8 py-2.5 cursor-pointer focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-all duration-200"
+        [value]="i18n.currentLang()"
+        (change)="onLanguageChange($event)"
+      >
+        @for (lang of i18n.languages; track lang.code) {
+          <option [value]="lang.code">{{ lang.label }}</option>
+        }
+      </select>
+      <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-primary">
+        <span class="material-symbols-outlined text-sm">expand_more</span>
+      </div>
+    </div>
+  </div>
+</aside>

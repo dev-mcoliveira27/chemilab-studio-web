@@ -1,0 +1,27 @@
+:host {
+  display: block;
+}
+
+.atom-scene {
+  /* Give the atom a subtle 3D tilt for a more premium visual effect */
+  transform: perspective(800px) rotateX(25deg) rotateY(-10deg);
+  transform-style: preserve-3d;
+}
+
+.electron-spinner {
+  animation: spin linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.pulse-glow {
+  animation: nucleus-pulse 4s ease-in-out infinite alternate;
+}
+
+@keyframes nucleus-pulse {
+  0% { filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.15)); transform: scale(1); }
+  100% { filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.35)); transform: scale(1.05); }
+}

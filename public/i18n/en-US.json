@@ -1,0 +1,49 @@
+{
+  "APP": {
+    "TITLE": "ChemiLab Studio",
+    "SUBTITLE": "Molecular Editor"
+  },
+  "NAV": {
+    "PERIODIC_TABLE": "Periodic Table",
+    "LABORATORY": "Laboratory"
+  },
+  "PAGE_HEADER": {
+    "TITLE_PART_1": "Elemental",
+    "TITLE_PART_2": "Matrix",
+    "DESCRIPTION": "A comprehensive view of all 118 known elements. Explore properties, configurations, and chemical families in our high-fidelity matrix."
+  },
+  "SEARCH": {
+    "ACTIVE_ELEMENT": "Active Element",
+    "NONE_SELECTED": "None selected"
+  },
+  "LEGEND": {
+    "DATA_EXPORT": "Data Export",
+    "SHORTCUTS": "Shortcuts"
+  },
+  "CATEGORY": {
+    "REACTIVE_NONMETALS": "Reactive Nonmetals",
+    "NOBLE_GASES": "Noble Gases",
+    "ALKALI_METALS": "Alkali Metals",
+    "ALKALINE_EARTH": "Alkaline Earth",
+    "METALLOIDS": "Metalloids",
+    "TRANSITION_METALS": "Transition Metals",
+    "POST_TRANSITION": "Post-Transition",
+    "LANTHANIDES": "Lanthanides",
+    "ACTINIDES": "Actinides"
+  },
+  "PANEL": {
+    "LIVE_SIMULATION": "Live Simulation",
+    "ATOMIC_WEIGHT": "Atomic Weight",
+    "MELTING_POINT": "Melting Point",
+    "BOILING_POINT": "Boiling Point",
+    "SHELL_CONFIG": "Shell Configuration",
+    "CHEMICAL_LAB": "Chemical Lab",
+    "SIMULATE_REACTIONS_1": "Simulate",
+    "SIMULATE_REACTIONS_2": "reactions in the virtual environment.",
+    "START_EXPERIMENT": "Start Experiment",
+    "SELECT_PROMPT": "Select an element from the periodic table to view its details."
+  },
+  "GRID": {
+    "F_BLOCK_SERIES": "F-Block Series"
+  }
+}

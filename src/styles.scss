@@ -1,1 +1,121 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base ─── */
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #080f18;
+  color: #e8eefc;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+::selection {
+  background-color: #81ecff;
+  color: #005762;
+}
+
+/* ─── Material Symbols ─── */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* ─── Glass Panel ─── */
+.glass-panel {
+  background: rgba(29, 38, 52, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* ─── Element Glow ─── */
+.element-glow {
+  transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 0 20px rgba(129, 236, 255, 0.15);
+    transform: scale(1.05);
+  }
+}
+
+/* ─── Category Border Colors ─── */
+.cat-reactive-nonmetal  { border-color: rgba(129, 236, 255, 0.3); }
+.cat-noble-gas          { border-color: rgba(166, 140, 255, 0.3); }
+.cat-alkali-metal       { border-color: rgba(233, 255, 186, 0.3); }
+.cat-alkaline-earth     { border-color: rgba(255, 113, 108, 0.3); }
+.cat-metalloid          { border-color: rgba(0, 212, 236, 0.3);   }
+.cat-post-transition-metal { border-color: rgba(111, 118, 130, 0.3); }
+.cat-transition-metal   { border-color: rgba(129, 236, 255, 0.15); }
+.cat-lanthanide         { border-color: rgba(216, 202, 255, 0.3); }
+.cat-actinide           { border-color: rgba(255, 168, 163, 0.3); }
+.cat-unknown            { border-color: rgba(111, 118, 130, 0.2); }
+
+/* ─── Category Text Colors ─── */
+.text-cat-reactive-nonmetal  { color: #81ecff; }
+.text-cat-noble-gas          { color: #a68cff; }
+.text-cat-alkali-metal       { color: #e9ffba; }
+.text-cat-alkaline-earth     { color: #ff716c; }
+.text-cat-metalloid          { color: #00d4ec; }
+.text-cat-post-transition-metal { color: #6f7682; }
+.text-cat-transition-metal   { color: rgba(232, 238, 252, 0.6); }
+.text-cat-lanthanide         { color: #cabaff; }
+.text-cat-actinide           { color: #ffa8a3; }
+.text-cat-unknown            { color: #6f7682; }
+
+/* ─── Category Hover Border ─── */
+.hover-cat-reactive-nonmetal:hover  { border-color: #81ecff !important; }
+.hover-cat-noble-gas:hover          { border-color: #a68cff !important; }
+.hover-cat-alkali-metal:hover       { border-color: #e9ffba !important; }
+.hover-cat-alkaline-earth:hover     { border-color: #ff716c !important; }
+.hover-cat-metalloid:hover          { border-color: #00d4ec !important; }
+.hover-cat-post-transition-metal:hover { border-color: #6f7682 !important; }
+.hover-cat-transition-metal:hover   { border-color: rgba(232, 238, 252, 0.6) !important; }
+.hover-cat-lanthanide:hover         { border-color: #cabaff !important; }
+.hover-cat-actinide:hover           { border-color: #ffa8a3 !important; }
+.hover-cat-unknown:hover            { border-color: #6f7682 !important; }
+
+/* ─── Custom Scrollbar ─── */
+.custom-scrollbar {
+  &::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(129, 236, 255, 0.05);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(129, 236, 255, 0.2);
+    border-radius: 10px;
+  }
+}
+
+/* ─── Global Scrollbar ─── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(129, 236, 255, 0.15);
+  border-radius: 10px;
+}
+
+/* ─── Pulse Animation ─── */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}

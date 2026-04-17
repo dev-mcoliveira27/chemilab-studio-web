@@ -1,0 +1,22 @@
+:host {
+  display: block;
+}
+
+.element-tile {
+  background: rgb(12, 20, 30); // surface-container-low
+  min-width: 0;
+
+  &:hover {
+    transform: scale(1.08);
+    z-index: 10;
+  }
+}
+
+.element-selected {
+  background: rgba(0, 227, 253, 0.12) !important;
+  border-width: 2px !important;
+  border-color: rgb(129, 236, 255) !important;
+  box-shadow: 0 0 16px rgba(129, 236, 255, 0.35);
+  transform: scale(1.05);
+  z-index: 10;
+}

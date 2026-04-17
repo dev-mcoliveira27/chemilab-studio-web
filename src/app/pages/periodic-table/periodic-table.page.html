@@ -1,0 +1,28 @@
+<div class="max-w-7xl mx-auto">
+  <!-- Header -->
+  <header class="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
+    <cl-page-header />
+    <cl-active-element-search [activeElement]="selectedElement()" />
+  </header>
+
+  <!-- Periodic Table Grid -->
+  <cl-periodic-table-grid [elements]="elements()" [selectedElement]="selectedElement()"
+    (elementSelected)="onElementSelected($event)" />
+
+  <!-- Category Legend -->
+  <div class="mt-12">
+    <cl-category-legend />
+  </div>
+
+  <!-- Element Detail Panel -->
+  <div class="mt-8">
+    <cl-element-detail-panel [element]="selectedElement()" />
+  </div>
+
+</div>
+
+<!-- Floating Action Button -->
+<button
+  class="fixed bottom-8 right-8 w-14 h-14 bg-gradient-to-br from-primary to-primary-dim rounded-2xl shadow-[0_10px_30px_rgba(0,212,236,0.3)] flex items-center justify-center text-on-primary hover:scale-105 transition-transform z-[100]">
+  <span class="material-symbols-outlined text-2xl">science</span>
+</button>
