@@ -1,0 +1,52 @@
+<div class="overflow-x-auto pb-4 custom-scrollbar">
+  <!-- Main Periodic Table Grid (18 columns × 7 rows) -->
+  <div class="periodic-grid min-w-[1100px]">
+    @for (element of mainElements(); track element.number) {
+      <div [style]="getGridStyles(element)">
+        <cl-element-cell
+          [element]="element"
+          [isSelected]="isSelected(element)"
+          (elementClick)="onElementClick($event)"
+        />
+      </div>
+    }
+  </div>
+
+  <!-- F-Block Series (Lanthanides & Actinides) -->
+  <div class="mt-8 min-w-[1100px]">
+    <!-- Divider -->
+    <div class="flex items-center gap-3 mb-4 px-4">
+      <div class="h-px flex-1 bg-outline-variant/20"></div>
+      <span class="text-[10px] font-label text-outline uppercase tracking-[0.2em]">{{ 'GRID.F_BLOCK_SERIES' | translate }}</span>
+      <div class="h-px flex-1 bg-outline-variant/20"></div>
+    </div>
+
+    <!-- Lanthanides -->
+    <div class="fblock-grid mb-2">
+      @for (element of lanthanides(); track element.number) {
+        <cl-element-cell
+          [element]="element"
+          [isSelected]="isSelected(element)"
+          (elementClick)="onElementClick($event)"
+        />
+      }
+    </div>
+    <p class="text-[10px] font-label text-outline/40 uppercase tracking-widest text-center mb-4">
+      Lanthanide Series [57-71]
+    </p>
+
+    <!-- Actinides -->
+    <div class="fblock-grid mb-2">
+      @for (element of actinides(); track element.number) {
+        <cl-element-cell
+          [element]="element"
+          [isSelected]="isSelected(element)"
+          (elementClick)="onElementClick($event)"
+        />
+      }
+    </div>
+    <p class="text-[10px] font-label text-outline/40 uppercase tracking-widest text-center">
+      Actinide Series [89-103]
+    </p>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="max-w-7xl mx-auto">
+
+  <!-- Periodic Table Grid -->
+  <cl-periodic-table-grid [elements]="elements()" [selectedElement]="selectedElement()"
+    (elementSelected)="onElementSelected($event)" />
+
+  <!-- Category Legend -->
+  <div class="mt-12">
+    <cl-category-legend />
+  </div>
+
+  <!-- Element Detail Panel -->
+  <div class="mt-8">
+    <cl-element-detail-panel [element]="selectedElement()" />
+  </div>
+
+</div>

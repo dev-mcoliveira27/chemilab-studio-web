@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #080f18;
+}
+
+.main-content {
+  margin-left: 16rem; // w-64 = 16rem
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #080f18;
+}

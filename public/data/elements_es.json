@@ -1,0 +1,2273 @@
+[
+  {
+    "number": 1,
+    "symbol": "H",
+    "name": "Hidrógeno",
+    "category": "reactive-nonmetal",
+    "atomicWeight": 1.008,
+    "meltingPoint": -259.16,
+    "boilingPoint": -252.87,
+    "electronShells": [
+      1
+    ],
+    "description": "Elemento más ligero y sustancia química más abundante del universo.Componente esencial del agua y de todos los compuestos orgánicos.",
+    "gridRow": 1,
+    "gridCol": 1
+  },
+  {
+    "number": 2,
+    "symbol": "He",
+    "name": "helio",
+    "category": "noble-gas",
+    "atomicWeight": 4.0026,
+    "meltingPoint": null,
+    "boilingPoint": -268.93,
+    "electronShells": [
+      2
+    ],
+    "description": "Segundo elemento más ligero y segundo más abundante del universo observable.Gas monoatómico incoloro, inodoro e inerte.",
+    "gridRow": 1,
+    "gridCol": 18
+  },
+  {
+    "number": 3,
+    "symbol": "Li",
+    "name": "Litio",
+    "category": "alkali-metal",
+    "atomicWeight": 6.941,
+    "meltingPoint": 180.54,
+    "boilingPoint": 1342,
+    "electronShells": [
+      2,
+      1
+    ],
+    "description": "El metal más ligero y el elemento sólido más ligero.Ampliamente utilizado en baterías recargables y medicación psiquiátrica.",
+    "gridRow": 2,
+    "gridCol": 1
+  },
+  {
+    "number": 4,
+    "symbol": "Be",
+    "name": "berilio",
+    "category": "alkaline-earth",
+    "atomicWeight": 9.0122,
+    "meltingPoint": 1287,
+    "boilingPoint": 2470,
+    "electronShells": [
+      2,
+      2
+    ],
+    "description": "Metal alcalinotérreo ligero, resistente y de color gris acero.Utilizado en materiales aeroespaciales, ventanas de rayos X y física de partículas.",
+    "gridRow": 2,
+    "gridCol": 2
+  },
+  {
+    "number": 5,
+    "symbol": "B",
+    "name": "Boro",
+    "category": "metalloid",
+    "atomicWeight": 10.81,
+    "meltingPoint": 2076,
+    "boilingPoint": 3927,
+    "electronShells": [
+      2,
+      3
+    ],
+    "description": "Metaloide esencial para el crecimiento de las plantas.Se utiliza en vidrio de borosilicato, detergentes y como dopante semiconductor.",
+    "gridRow": 2,
+    "gridCol": 13
+  },
+  {
+    "number": 6,
+    "symbol": "C",
+    "name": "Carbono",
+    "category": "reactive-nonmetal",
+    "atomicWeight": 12.011,
+    "meltingPoint": 3550,
+    "boilingPoint": 4027,
+    "electronShells": [
+      2,
+      4
+    ],
+    "description": "Base de toda la vida conocida en la Tierra.Forma más compuestos que cualquier otro elemento, desde diamantes hasta moléculas orgánicas.",
+    "gridRow": 2,
+    "gridCol": 14
+  },
+  {
+    "number": 7,
+    "symbol": "N",
+    "name": "nitrógeno",
+    "category": "reactive-nonmetal",
+    "atomicWeight": 14.007,
+    "meltingPoint": -210,
+    "boilingPoint": -195.79,
+    "electronShells": [
+      2,
+      5
+    ],
+    "description": "Constituye el 78% de la atmósfera terrestre.Esencial para aminoácidos, proteínas y ácidos nucleicos en todos los organismos vivos.",
+    "gridRow": 2,
+    "gridCol": 15
+  },
+  {
+    "number": 8,
+    "symbol": "O",
+    "name": "Oxígeno",
+    "category": "reactive-nonmetal",
+    "atomicWeight": 15.999,
+    "meltingPoint": -218.79,
+    "boilingPoint": -182.96,
+    "electronShells": [
+      2,
+      6
+    ],
+    "description": "Elemento más abundante en la corteza terrestre.Esencial para la respiración y la combustión.Forma agua con hidrógeno.",
+    "gridRow": 2,
+    "gridCol": 16
+  },
+  {
+    "number": 9,
+    "symbol": "F",
+    "name": "flúor",
+    "category": "reactive-nonmetal",
+    "atomicWeight": 18.998,
+    "meltingPoint": -219.67,
+    "boilingPoint": -188.12,
+    "electronShells": [
+      2,
+      7
+    ],
+    "description": "El más electronegativo y reactivo de todos los elementos.Se utiliza en pasta de dientes, teflón y refrigerantes.",
+    "gridRow": 2,
+    "gridCol": 17
+  },
+  {
+    "number": 10,
+    "symbol": "Ne",
+    "name": "Neón",
+    "category": "noble-gas",
+    "atomicWeight": 20.18,
+    "meltingPoint": -248.59,
+    "boilingPoint": -246.08,
+    "electronShells": [
+      2,
+      8
+    ],
+    "description": "Da un distintivo brillo naranja rojizo en los tubos de descarga al vacío.Utilizado en letreros de neón e indicadores de alto voltaje.",
+    "gridRow": 2,
+    "gridCol": 18
+  },
+  {
+    "number": 11,
+    "symbol": "Na",
+    "name": "sodio",
+    "category": "alkali-metal",
+    "atomicWeight": 22.99,
+    "meltingPoint": 97.794,
+    "boilingPoint": 882.94,
+    "electronShells": [
+      2,
+      8,
+      1
+    ],
+    "description": "Metal blando, de color blanco plateado y muy reactivo.Esencial para la función nerviosa.Común como cloruro de sodio (sal de mesa).",
+    "gridRow": 3,
+    "gridCol": 1
+  },
+  {
+    "number": 12,
+    "symbol": "Mg",
+    "name": "magnesio",
+    "category": "alkaline-earth",
+    "atomicWeight": 24.305,
+    "meltingPoint": 650,
+    "boilingPoint": 1091,
+    "electronShells": [
+      2,
+      8,
+      2
+    ],
+    "description": "Metal estructural ligero utilizado en aleaciones.Esencial para la clorofila en las plantas y cientos de enzimas en los humanos.",
+    "gridRow": 3,
+    "gridCol": 2
+  },
+  {
+    "number": 13,
+    "symbol": "Al",
+    "name": "Aluminio",
+    "category": "post-transition-metal",
+    "atomicWeight": 26.982,
+    "meltingPoint": 660.32,
+    "boilingPoint": 2519,
+    "electronShells": [
+      2,
+      8,
+      3
+    ],
+    "description": "Metal más abundante en la corteza terrestre.Ligero, resistente a la corrosión.Utilizado en embalaje, transporte y construcción.",
+    "gridRow": 3,
+    "gridCol": 13
+  },
+  {
+    "number": 14,
+    "symbol": "Si",
+    "name": "Silicio",
+    "category": "metalloid",
+    "atomicWeight": 28.086,
+    "meltingPoint": 1414,
+    "boilingPoint": 3265,
+    "electronShells": [
+      2,
+      8,
+      4
+    ],
+    "description": "Segundo elemento más abundante en la corteza terrestre.Fundamental para la tecnología de semiconductores y la electrónica moderna.",
+    "gridRow": 3,
+    "gridCol": 14
+  },
+  {
+    "number": 15,
+    "symbol": "P",
+    "name": "fósforo",
+    "category": "reactive-nonmetal",
+    "atomicWeight": 30.974,
+    "meltingPoint": 44.15,
+    "boilingPoint": 280.5,
+    "electronShells": [
+      2,
+      8,
+      5
+    ],
+    "description": "Esencial para la vida: se encuentra en el ADN, el ARN y el ATP.Utilizado en fertilizantes, detergentes y fósforos.",
+    "gridRow": 3,
+    "gridCol": 15
+  },
+  {
+    "number": 16,
+    "symbol": "S",
+    "name": "azufre",
+    "category": "reactive-nonmetal",
+    "atomicWeight": 32.06,
+    "meltingPoint": 115.21,
+    "boilingPoint": 444.6,
+    "electronShells": [
+      2,
+      8,
+      6
+    ],
+    "description": "Sólido cristalino de color amarillo brillante.Esencial para proteínas y enzimas.Utilizado en la producción de ácido sulfúrico y vulcanización.",
+    "gridRow": 3,
+    "gridCol": 16
+  },
+  {
+    "number": 17,
+    "symbol": "Cl",
+    "name": "cloro",
+    "category": "reactive-nonmetal",
+    "atomicWeight": 35.45,
+    "meltingPoint": -101.5,
+    "boilingPoint": -34.04,
+    "electronShells": [
+      2,
+      8,
+      7
+    ],
+    "description": "Gas de color amarillo verdoso con olor acre.Esencial para la purificación de agua, desinfectantes y producción de PVC.",
+    "gridRow": 3,
+    "gridCol": 17
+  },
+  {
+    "number": 18,
+    "symbol": "Ar",
+    "name": "argón",
+    "category": "noble-gas",
+    "atomicWeight": 39.948,
+    "meltingPoint": -189.34,
+    "boilingPoint": -185.85,
+    "electronShells": [
+      2,
+      8,
+      8
+    ],
+    "description": "Tercer gas más abundante en la atmósfera terrestre.Se utiliza en soldadura, iluminación y como atmósfera protectora para cristales en crecimiento.",
+    "gridRow": 3,
+    "gridCol": 18
+  },
+  {
+    "number": 19,
+    "symbol": "K",
+    "name": "potasio",
+    "category": "alkali-metal",
+    "atomicWeight": 39.098,
+    "meltingPoint": 63.5,
+    "boilingPoint": 759,
+    "electronShells": [
+      2,
+      8,
+      8,
+      1
+    ],
+    "description": "Nutriente esencial para todas las células vivas.Metal blanco plateado altamente reactivo.Utilizado en fertilizantes e hidróxido de potasio.",
+    "gridRow": 4,
+    "gridCol": 1
+  },
+  {
+    "number": 20,
+    "symbol": "Ca",
+    "name": "calcio",
+    "category": "alkaline-earth",
+    "atomicWeight": 40.078,
+    "meltingPoint": 842,
+    "boilingPoint": 1484,
+    "electronShells": [
+      2,
+      8,
+      8,
+      2
+    ],
+    "description": "Metal más abundante en el cuerpo humano.Esencial para huesos, dientes y señalización celular.Se encuentra en piedra caliza y tiza.",
+    "gridRow": 4,
+    "gridCol": 2
+  },
+  {
+    "number": 21,
+    "symbol": "Sc",
+    "name": "escandio",
+    "category": "transition-metal",
+    "atomicWeight": 44.956,
+    "meltingPoint": 1541,
+    "boilingPoint": 2836,
+    "electronShells": [
+      2,
+      8,
+      9,
+      2
+    ],
+    "description": "Elemento metálico de color blanco plateado.Utilizado en aleaciones aeroespaciales y lámparas de halogenuros metálicos de alta intensidad.",
+    "gridRow": 4,
+    "gridCol": 3
+  },
+  {
+    "number": 22,
+    "symbol": "Ti",
+    "name": "Titanio",
+    "category": "transition-metal",
+    "atomicWeight": 47.867,
+    "meltingPoint": 1668,
+    "boilingPoint": 3287,
+    "electronShells": [
+      2,
+      8,
+      10,
+      2
+    ],
+    "description": "Metal de transición fuerte, lustroso y resistente a la corrosión.Utilizado en la industria aeroespacial, implantes médicos y artículos deportivos.",
+    "gridRow": 4,
+    "gridCol": 4
+  },
+  {
+    "number": 23,
+    "symbol": "V",
+    "name": "Vanadio",
+    "category": "transition-metal",
+    "atomicWeight": 50.942,
+    "meltingPoint": 1910,
+    "boilingPoint": 3407,
+    "electronShells": [
+      2,
+      8,
+      11,
+      2
+    ],
+    "description": "Metal duro de color gris plateado.Se utiliza para fortalecer aleaciones de acero.Se encuentra en algunos minerales y depósitos de combustibles fósiles.",
+    "gridRow": 4,
+    "gridCol": 5
+  },
+  {
+    "number": 24,
+    "symbol": "Cr",
+    "name": "cromo",
+    "category": "transition-metal",
+    "atomicWeight": 51.996,
+    "meltingPoint": 1907,
+    "boilingPoint": 2671,
+    "electronShells": [
+      2,
+      8,
+      13,
+      1
+    ],
+    "description": "Metal duro y brillante con un alto punto de fusión.Utilizado en acero inoxidable, cromado y pigmentos.",
+    "gridRow": 4,
+    "gridCol": 6
+  },
+  {
+    "number": 25,
+    "symbol": "Mn",
+    "name": "manganeso",
+    "category": "transition-metal",
+    "atomicWeight": 54.938,
+    "meltingPoint": 1246,
+    "boilingPoint": 2061,
+    "electronShells": [
+      2,
+      8,
+      13,
+      2
+    ],
+    "description": "Oligoelemento esencial para todos los organismos vivos.Utilizado en la producción de acero y baterías de celda seca.",
+    "gridRow": 4,
+    "gridCol": 7
+  },
+  {
+    "number": 26,
+    "symbol": "Fe",
+    "name": "hierro",
+    "category": "transition-metal",
+    "atomicWeight": 55.845,
+    "meltingPoint": 1538,
+    "boilingPoint": 2862,
+    "electronShells": [
+      2,
+      8,
+      14,
+      2
+    ],
+    "description": "Elemento más común en la Tierra por masa.Fundación de la industria siderúrgica.Esencial para la hemoglobina en sangre.",
+    "gridRow": 4,
+    "gridCol": 8
+  },
+  {
+    "number": 27,
+    "symbol": "Co",
+    "name": "cobalto",
+    "category": "transition-metal",
+    "atomicWeight": 58.933,
+    "meltingPoint": 1495,
+    "boilingPoint": 2927,
+    "electronShells": [
+      2,
+      8,
+      15,
+      2
+    ],
+    "description": "Metal duro, brillante y de color gris plateado.Utilizado en baterías de iones de litio, superaleaciones y pigmentos azules.",
+    "gridRow": 4,
+    "gridCol": 9
+  },
+  {
+    "number": 28,
+    "symbol": "Ni",
+    "name": "níquel",
+    "category": "transition-metal",
+    "atomicWeight": 58.693,
+    "meltingPoint": 1455,
+    "boilingPoint": 2913,
+    "electronShells": [
+      2,
+      8,
+      16,
+      2
+    ],
+    "description": "Metal brillante de color blanco plateado con un ligero matiz dorado.Utilizado en acero inoxidable, monedas y pilas.",
+    "gridRow": 4,
+    "gridCol": 10
+  },
+  {
+    "number": 29,
+    "symbol": "Cu",
+    "name": "Cobre",
+    "category": "transition-metal",
+    "atomicWeight": 63.546,
+    "meltingPoint": 1085,
+    "boilingPoint": 2562,
+    "electronShells": [
+      2,
+      8,
+      18,
+      1
+    ],
+    "description": "Metal muy dúctil con muy alta conductividad térmica y eléctrica.Esencial para la infraestructura moderna.",
+    "gridRow": 4,
+    "gridCol": 11
+  },
+  {
+    "number": 30,
+    "symbol": "Zn",
+    "name": "zinc",
+    "category": "transition-metal",
+    "atomicWeight": 65.38,
+    "meltingPoint": 419.53,
+    "boilingPoint": 907,
+    "electronShells": [
+      2,
+      8,
+      18,
+      2
+    ],
+    "description": "Metal brillante de color blanco azulado.Oligoelemento esencial para el ser humano.Utilizado en acero galvanizado y en baterías.",
+    "gridRow": 4,
+    "gridCol": 12
+  },
+  {
+    "number": 31,
+    "symbol": "Ga",
+    "name": "galio",
+    "category": "post-transition-metal",
+    "atomicWeight": 69.723,
+    "meltingPoint": 29.76,
+    "boilingPoint": 2204,
+    "electronShells": [
+      2,
+      8,
+      18,
+      3
+    ],
+    "description": "Metal blando y plateado que se funde cerca de la temperatura ambiente.Utilizado en semiconductores, LED y paneles solares.",
+    "gridRow": 4,
+    "gridCol": 13
+  },
+  {
+    "number": 32,
+    "symbol": "Ge",
+    "name": "germanio",
+    "category": "metalloid",
+    "atomicWeight": 72.63,
+    "meltingPoint": 938.25,
+    "boilingPoint": 2833,
+    "electronShells": [
+      2,
+      8,
+      18,
+      4
+    ],
+    "description": "Metaloide brillante y duro y quebradizo.Importante material semiconductor utilizado en fibra óptica y óptica infrarroja.",
+    "gridRow": 4,
+    "gridCol": 14
+  },
+  {
+    "number": 33,
+    "symbol": "As",
+    "name": "Arsénico",
+    "category": "metalloid",
+    "atomicWeight": 74.922,
+    "meltingPoint": 816.9,
+    "boilingPoint": 614,
+    "electronShells": [
+      2,
+      8,
+      18,
+      5
+    ],
+    "description": "Metaloide conocido por su toxicidad.Se utiliza en semiconductores, pesticidas y conservantes de madera.",
+    "gridRow": 4,
+    "gridCol": 15
+  },
+  {
+    "number": 34,
+    "symbol": "Se",
+    "name": "selenio",
+    "category": "reactive-nonmetal",
+    "atomicWeight": 78.96,
+    "meltingPoint": 221,
+    "boilingPoint": 685,
+    "electronShells": [
+      2,
+      8,
+      18,
+      6
+    ],
+    "description": "Oligoelemento esencial con propiedades antioxidantes.Utilizado en fabricación de vidrio, pigmentos y células fotovoltaicas.",
+    "gridRow": 4,
+    "gridCol": 16
+  },
+  {
+    "number": 35,
+    "symbol": "Br",
+    "name": "bromo",
+    "category": "reactive-nonmetal",
+    "atomicWeight": 79.904,
+    "meltingPoint": -7.2,
+    "boilingPoint": 58.8,
+    "electronShells": [
+      2,
+      8,
+      18,
+      7
+    ],
+    "description": "Líquido de color marrón rojizo a temperatura ambiente, uno de los dos únicos elementos líquidos.Utilizado en retardantes de llama y productos farmacéuticos.",
+    "gridRow": 4,
+    "gridCol": 17
+  },
+  {
+    "number": 36,
+    "symbol": "Kr",
+    "name": "criptón",
+    "category": "noble-gas",
+    "atomicWeight": 83.798,
+    "meltingPoint": -157.36,
+    "boilingPoint": -153.22,
+    "electronShells": [
+      2,
+      8,
+      18,
+      8
+    ],
+    "description": "Gas noble incoloro e inodoro.Se utiliza en lámparas fluorescentes, fotografía con flash y como gas aislante.",
+    "gridRow": 4,
+    "gridCol": 18
+  },
+  {
+    "number": 37,
+    "symbol": "Rb",
+    "name": "Rubidio",
+    "category": "alkali-metal",
+    "atomicWeight": 85.468,
+    "meltingPoint": 39.31,
+    "boilingPoint": 688,
+    "electronShells": [
+      2,
+      8,
+      18,
+      8,
+      1
+    ],
+    "description": "Metal alcalino blando, de color blanco plateado.Altamente reactivo.Utilizado en relojes atómicos y vidrio especializado.",
+    "gridRow": 5,
+    "gridCol": 1
+  },
+  {
+    "number": 38,
+    "symbol": "Sr",
+    "name": "Estroncio",
+    "category": "alkaline-earth",
+    "atomicWeight": 87.62,
+    "meltingPoint": 777,
+    "boilingPoint": 1377,
+    "electronShells": [
+      2,
+      8,
+      18,
+      8,
+      2
+    ],
+    "description": "Metal alcalinotérreo de color amarillo plateado.Se utiliza en fuegos artificiales para el color rojo, imanes de ferrita y pasta de dientes.",
+    "gridRow": 5,
+    "gridCol": 2
+  },
+  {
+    "number": 39,
+    "symbol": "Y",
+    "name": "itrio",
+    "category": "transition-metal",
+    "atomicWeight": 88.906,
+    "meltingPoint": 1526,
+    "boilingPoint": 3345,
+    "electronShells": [
+      2,
+      8,
+      18,
+      9,
+      2
+    ],
+    "description": "Metal de transición metálico plateado.Se utiliza en LED, láseres, superconductores y medicamentos para el tratamiento del cáncer.",
+    "gridRow": 5,
+    "gridCol": 3
+  },
+  {
+    "number": 40,
+    "symbol": "Zr",
+    "name": "circonio",
+    "category": "transition-metal",
+    "atomicWeight": 91.224,
+    "meltingPoint": 1855,
+    "boilingPoint": 4409,
+    "electronShells": [
+      2,
+      8,
+      18,
+      10,
+      2
+    ],
+    "description": "Metal brillante de color blanco grisáceo.Altamente resistente a la corrosión.Utilizado en reactores nucleares y materiales cerámicos.",
+    "gridRow": 5,
+    "gridCol": 4
+  },
+  {
+    "number": 41,
+    "symbol": "Nb",
+    "name": "niobio",
+    "category": "transition-metal",
+    "atomicWeight": 92.906,
+    "meltingPoint": 2477,
+    "boilingPoint": 4744,
+    "electronShells": [
+      2,
+      8,
+      18,
+      12,
+      1
+    ],
+    "description": "Metal cristalino de color gris claro.Se utiliza en imanes superconductores, aleaciones aeroespaciales y joyería hipoalergénica.",
+    "gridRow": 5,
+    "gridCol": 5
+  },
+  {
+    "number": 42,
+    "symbol": "Mo",
+    "name": "molibdeno",
+    "category": "transition-metal",
+    "atomicWeight": 95.96,
+    "meltingPoint": 2623,
+    "boilingPoint": 4639,
+    "electronShells": [
+      2,
+      8,
+      18,
+      13,
+      1
+    ],
+    "description": "Metal plateado con punto de fusión muy alto.Oligoelemento esencial.Utilizado en aleaciones de acero de alta resistencia.",
+    "gridRow": 5,
+    "gridCol": 6
+  },
+  {
+    "number": 43,
+    "symbol": "Tc",
+    "name": "tecnecio",
+    "category": "transition-metal",
+    "atomicWeight": 98,
+    "meltingPoint": 2157,
+    "boilingPoint": 4265,
+    "electronShells": [
+      2,
+      8,
+      18,
+      13,
+      2
+    ],
+    "description": "Elemento más ligero sin isótopos estables.Primer elemento producido artificialmente.Utilizado en imágenes de medicina nuclear.",
+    "gridRow": 5,
+    "gridCol": 7
+  },
+  {
+    "number": 44,
+    "symbol": "Ru",
+    "name": "rutenio",
+    "category": "transition-metal",
+    "atomicWeight": 101.07,
+    "meltingPoint": 2334,
+    "boilingPoint": 4150,
+    "electronShells": [
+      2,
+      8,
+      18,
+      15,
+      1
+    ],
+    "description": "Metal de transición raro del grupo del platino.Utilizado en electrónica, células solares y química catalítica.",
+    "gridRow": 5,
+    "gridCol": 8
+  },
+  {
+    "number": 45,
+    "symbol": "Rh",
+    "name": "rodio",
+    "category": "transition-metal",
+    "atomicWeight": 102.91,
+    "meltingPoint": 1964,
+    "boilingPoint": 3695,
+    "electronShells": [
+      2,
+      8,
+      18,
+      16,
+      1
+    ],
+    "description": "Metal noble ultra raro, de color blanco plateado.Metal precioso más caro.Utilizado en convertidores catalíticos y joyería.",
+    "gridRow": 5,
+    "gridCol": 9
+  },
+  {
+    "number": 46,
+    "symbol": "Pd",
+    "name": "paladio",
+    "category": "transition-metal",
+    "atomicWeight": 106.42,
+    "meltingPoint": 1554.9,
+    "boilingPoint": 2963,
+    "electronShells": [
+      2,
+      8,
+      18,
+      18
+    ],
+    "description": "Raro metal blanco plateado.Componente clave en convertidores catalíticos, electrónica y purificación de hidrógeno.",
+    "gridRow": 5,
+    "gridCol": 10
+  },
+  {
+    "number": 47,
+    "symbol": "Ag",
+    "name": "Plata",
+    "category": "transition-metal",
+    "atomicWeight": 107.87,
+    "meltingPoint": 961.78,
+    "boilingPoint": 2162,
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      1
+    ],
+    "description": "La mayor conductividad eléctrica y térmica de cualquier elemento.Utilizado en joyería, fotografía y electrónica.",
+    "gridRow": 5,
+    "gridCol": 11
+  },
+  {
+    "number": 48,
+    "symbol": "Cd",
+    "name": "cadmio",
+    "category": "transition-metal",
+    "atomicWeight": 112.41,
+    "meltingPoint": 321.07,
+    "boilingPoint": 767,
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      2
+    ],
+    "description": "Metal blando de color blanco azulado.Se utiliza en baterías de NiCd, pigmentos y como absorbente de neutrones en reactores nucleares.",
+    "gridRow": 5,
+    "gridCol": 12
+  },
+  {
+    "number": 49,
+    "symbol": "In",
+    "name": "indio",
+    "category": "post-transition-metal",
+    "atomicWeight": 114.82,
+    "meltingPoint": 156.6,
+    "boilingPoint": 2072,
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      3
+    ],
+    "description": "Metal blando y maleable con un brillo brillante.Utilizado en pantallas táctiles (ITO), semiconductores y aleaciones de bajo punto de fusión.",
+    "gridRow": 5,
+    "gridCol": 13
+  },
+  {
+    "number": 50,
+    "symbol": "Sn",
+    "name": "Estaño",
+    "category": "post-transition-metal",
+    "atomicWeight": 118.71,
+    "meltingPoint": 231.93,
+    "boilingPoint": 2602,
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      4
+    ],
+    "description": "Metal plateado y maleable que resiste la corrosión.Utilizado en estañado, soldadura y aleaciones de bronce desde la antigüedad.",
+    "gridRow": 5,
+    "gridCol": 14
+  },
+  {
+    "number": 51,
+    "symbol": "Sb",
+    "name": "antimonio",
+    "category": "metalloid",
+    "atomicWeight": 121.76,
+    "meltingPoint": 630.63,
+    "boilingPoint": 1587,
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      5
+    ],
+    "description": "Metaloide gris brillante.Se utiliza en retardantes de llama, baterías de plomo-ácido y dispositivos semiconductores.",
+    "gridRow": 5,
+    "gridCol": 15
+  },
+  {
+    "number": 52,
+    "symbol": "Te",
+    "name": "telurio",
+    "category": "metalloid",
+    "atomicWeight": 127.6,
+    "meltingPoint": 449.51,
+    "boilingPoint": 988,
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      6
+    ],
+    "description": "Metaloide frágil y ligeramente tóxico.Utilizado en paneles solares (CdTe), dispositivos termoeléctricos y como aditivo de aleación.",
+    "gridRow": 5,
+    "gridCol": 16
+  },
+  {
+    "number": 53,
+    "symbol": "I",
+    "name": "yodo",
+    "category": "reactive-nonmetal",
+    "atomicWeight": 126.9,
+    "meltingPoint": 113.7,
+    "boilingPoint": 184.3,
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      7
+    ],
+    "description": "No metal brillante de color negro púrpura.Esencial para las hormonas tiroideas.Utilizado en medicina, fotografía y tintes.",
+    "gridRow": 5,
+    "gridCol": 17
+  },
+  {
+    "number": 54,
+    "symbol": "Xe",
+    "name": "xenón",
+    "category": "noble-gas",
+    "atomicWeight": 131.29,
+    "meltingPoint": -111.75,
+    "boilingPoint": -108.1,
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      8
+    ],
+    "description": "Gas noble denso que se encuentra en pequeñas cantidades en la atmósfera.Se utiliza en lámparas de destello, lámparas de arco y propulsión de iones.",
+    "gridRow": 5,
+    "gridCol": 18
+  },
+  {
+    "number": 55,
+    "symbol": "Cs",
+    "name": "cesio",
+    "category": "alkali-metal",
+    "atomicWeight": 132.91,
+    "meltingPoint": 28.44,
+    "boilingPoint": 671,
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      1
+    ],
+    "description": "Metal alcalino suave, dorado plateado con el punto de fusión más bajo de cualquier metal.Define el segundo SI en relojes atómicos.",
+    "gridRow": 6,
+    "gridCol": 1
+  },
+  {
+    "number": 56,
+    "symbol": "Ba",
+    "name": "Bario",
+    "category": "alkaline-earth",
+    "atomicWeight": 137.33,
+    "meltingPoint": 727,
+    "boilingPoint": 1845,
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      2
+    ],
+    "description": "Metal alcalinotérreo plateado y suave.Se utiliza en fluidos de perforación, harinas de bario para imágenes de rayos X y fuegos artificiales.",
+    "gridRow": 6,
+    "gridCol": 2
+  },
+  {
+    "number": 57,
+    "symbol": "La",
+    "name": "Lantano",
+    "category": "lanthanide",
+    "atomicWeight": 138.91,
+    "meltingPoint": 920,
+    "boilingPoint": 3464,
+    "electronShells": [
+      2,
+      8,
+      18,
+      18,
+      9,
+      2
+    ],
+    "description": "Metal blando, dúctil y de color blanco plateado.Jefe de la serie de los lantánidos.Utilizado en lentes de cámaras y convertidores catalíticos.",
+    "gridRow": 9,
+    "gridCol": 1
+  },
+  {
+    "number": 58,
+    "symbol": "Ce",
+    "name": "cerio",
+    "category": "lanthanide",
+    "atomicWeight": 140.12,
+    "meltingPoint": 799,
+    "boilingPoint": 3443,
+    "electronShells": [
+      2,
+      8,
+      18,
+      19,
+      9,
+      2
+    ],
+    "description": "Elemento de tierras raras más abundante.Utilizado en convertidores catalíticos, hornos autolimpiantes y pulido de vidrio.",
+    "gridRow": 9,
+    "gridCol": 2
+  },
+  {
+    "number": 59,
+    "symbol": "Pr",
+    "name": "praseodimio",
+    "category": "lanthanide",
+    "atomicWeight": 140.91,
+    "meltingPoint": 931,
+    "boilingPoint": 3520,
+    "electronShells": [
+      2,
+      8,
+      18,
+      21,
+      8,
+      2
+    ],
+    "description": "Metal de tierras raras blando, plateado y maleable.Utilizado en fuertes imanes permanentes y motores de aviones.",
+    "gridRow": 9,
+    "gridCol": 3
+  },
+  {
+    "number": 60,
+    "symbol": "Nd",
+    "name": "Neodimio",
+    "category": "lanthanide",
+    "atomicWeight": 144.24,
+    "meltingPoint": 1024,
+    "boilingPoint": 3074,
+    "electronShells": [
+      2,
+      8,
+      18,
+      22,
+      8,
+      2
+    ],
+    "description": "Se utiliza para fabricar los imanes permanentes más fuertes conocidos (NdFeB).Esencial para motores eléctricos y auriculares.",
+    "gridRow": 9,
+    "gridCol": 4
+  },
+  {
+    "number": 61,
+    "symbol": "Pm",
+    "name": "prometio",
+    "category": "lanthanide",
+    "atomicWeight": 145,
+    "meltingPoint": 1042,
+    "boilingPoint": 3000,
+    "electronShells": [
+      2,
+      8,
+      18,
+      23,
+      8,
+      2
+    ],
+    "description": "Sólo lantánidos sin isótopos estables.Extremadamente raro.Utilizado en baterías nucleares y pintura luminosa.",
+    "gridRow": 9,
+    "gridCol": 5
+  },
+  {
+    "number": 62,
+    "symbol": "Sm",
+    "name": "Samario",
+    "category": "lanthanide",
+    "atomicWeight": 150.36,
+    "meltingPoint": 1072,
+    "boilingPoint": 1794,
+    "electronShells": [
+      2,
+      8,
+      18,
+      24,
+      8,
+      2
+    ],
+    "description": "Metal plateado moderadamente duro.Se utiliza en imanes de samario-cobalto, barras de control de reactores nucleares y tratamientos contra el cáncer.",
+    "gridRow": 9,
+    "gridCol": 6
+  },
+  {
+    "number": 63,
+    "symbol": "Eu",
+    "name": "europio",
+    "category": "lanthanide",
+    "atomicWeight": 151.96,
+    "meltingPoint": 822,
+    "boilingPoint": 1529,
+    "electronShells": [
+      2,
+      8,
+      18,
+      25,
+      8,
+      2
+    ],
+    "description": "Elemento de tierras raras más reactivo.Se utiliza en fósforos rojos y azules para exhibidores y elementos de seguridad de billetes en euros.",
+    "gridRow": 9,
+    "gridCol": 7
+  },
+  {
+    "number": 64,
+    "symbol": "Gd",
+    "name": "Gadolinio",
+    "category": "lanthanide",
+    "atomicWeight": 157.25,
+    "meltingPoint": 1313,
+    "boilingPoint": 3273,
+    "electronShells": [
+      2,
+      8,
+      18,
+      25,
+      9,
+      2
+    ],
+    "description": "Metal blanco plateado con propiedades magnéticas únicas.Se utiliza como agente de contraste para resonancias magnéticas y en blindaje de reactores nucleares.",
+    "gridRow": 9,
+    "gridCol": 8
+  },
+  {
+    "number": 65,
+    "symbol": "Tb",
+    "name": "terbio",
+    "category": "lanthanide",
+    "atomicWeight": 158.93,
+    "meltingPoint": 1356,
+    "boilingPoint": 3230,
+    "electronShells": [
+      2,
+      8,
+      18,
+      27,
+      8,
+      2
+    ],
+    "description": "Metal de tierras raras de color blanco plateado.Se utiliza en fósforos verdes para pantallas, dispositivos de estado sólido y pilas de combustible.",
+    "gridRow": 9,
+    "gridCol": 9
+  },
+  {
+    "number": 66,
+    "symbol": "Dy",
+    "name": "disprosio",
+    "category": "lanthanide",
+    "atomicWeight": 162.5,
+    "meltingPoint": 1412,
+    "boilingPoint": 2567,
+    "electronShells": [
+      2,
+      8,
+      18,
+      28,
+      8,
+      2
+    ],
+    "description": "Metal plateado relativamente blando.Se utiliza en imanes de neodimio para mejorar el rendimiento a altas temperaturas y en reactores nucleares.",
+    "gridRow": 9,
+    "gridCol": 10
+  },
+  {
+    "number": 67,
+    "symbol": "Ho",
+    "name": "Holmio",
+    "category": "lanthanide",
+    "atomicWeight": 164.93,
+    "meltingPoint": 1474,
+    "boilingPoint": 2700,
+    "electronShells": [
+      2,
+      8,
+      18,
+      29,
+      8,
+      2
+    ],
+    "description": "Tiene el momento magnético más alto de cualquier elemento natural.Utilizado en barras de control nuclear y láseres de estado sólido.",
+    "gridRow": 9,
+    "gridCol": 11
+  },
+  {
+    "number": 68,
+    "symbol": "Er",
+    "name": "Erbio",
+    "category": "lanthanide",
+    "atomicWeight": 167.26,
+    "meltingPoint": 1529,
+    "boilingPoint": 2868,
+    "electronShells": [
+      2,
+      8,
+      18,
+      30,
+      8,
+      2
+    ],
+    "description": "Metal macizo de color blanco plateado.Se utiliza en amplificadores de fibra óptica, láseres y como colorante rosa para vidrio y cerámica.",
+    "gridRow": 9,
+    "gridCol": 12
+  },
+  {
+    "number": 69,
+    "symbol": "Tm",
+    "name": "tulio",
+    "category": "lanthanide",
+    "atomicWeight": 168.93,
+    "meltingPoint": 1545,
+    "boilingPoint": 1950,
+    "electronShells": [
+      2,
+      8,
+      18,
+      31,
+      8,
+      2
+    ],
+    "description": "Lantánido menos abundante en la corteza terrestre.Utilizado en dispositivos portátiles de rayos X y superconductores de alta temperatura.",
+    "gridRow": 9,
+    "gridCol": 13
+  },
+  {
+    "number": 70,
+    "symbol": "Yb",
+    "name": "iterbio",
+    "category": "lanthanide",
+    "atomicWeight": 173.05,
+    "meltingPoint": 824,
+    "boilingPoint": 1196,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      8,
+      2
+    ],
+    "description": "Elemento de tierras raras, blando y maleable.Se utiliza en medidores de tensión, láseres y como aditivo metalúrgico.",
+    "gridRow": 9,
+    "gridCol": 14
+  },
+  {
+    "number": 71,
+    "symbol": "Lu",
+    "name": "lutecio",
+    "category": "lanthanide",
+    "atomicWeight": 174.97,
+    "meltingPoint": 1663,
+    "boilingPoint": 3402,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      9,
+      2
+    ],
+    "description": "Lantánido más duro y denso.Se utiliza en detectores de escaneo PET, refinación de petróleo y fósforos LED.",
+    "gridRow": 9,
+    "gridCol": 15
+  },
+  {
+    "number": 72,
+    "symbol": "Hf",
+    "name": "hafnio",
+    "category": "transition-metal",
+    "atomicWeight": 178.49,
+    "meltingPoint": 2233,
+    "boilingPoint": 4603,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      10,
+      2
+    ],
+    "description": "Metal plateado brillante resistente a la corrosión.Utilizado en barras de control nuclear, antorchas de plasma y microprocesadores.",
+    "gridRow": 6,
+    "gridCol": 4
+  },
+  {
+    "number": 73,
+    "symbol": "Ta",
+    "name": "tantalio",
+    "category": "transition-metal",
+    "atomicWeight": 180.95,
+    "meltingPoint": 3017,
+    "boilingPoint": 5458,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      11,
+      2
+    ],
+    "description": "Metal duro, gris azulado y brillante.Altamente resistente a la corrosión.Utilizado en condensadores, implantes médicos y motores a reacción.",
+    "gridRow": 6,
+    "gridCol": 5
+  },
+  {
+    "number": 74,
+    "symbol": "W",
+    "name": "tungsteno",
+    "category": "transition-metal",
+    "atomicWeight": 183.84,
+    "meltingPoint": 3422,
+    "boilingPoint": 5555,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      12,
+      2
+    ],
+    "description": "Tiene el punto de fusión más alto de todos los elementos.Se utiliza en filamentos de bombillas, herramientas de corte y aplicaciones militares.",
+    "gridRow": 6,
+    "gridCol": 6
+  },
+  {
+    "number": 75,
+    "symbol": "Re",
+    "name": "renio",
+    "category": "transition-metal",
+    "atomicWeight": 186.21,
+    "meltingPoint": 3186,
+    "boilingPoint": 5596,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      13,
+      2
+    ],
+    "description": "Uno de los elementos más raros de la corteza terrestre.Tiene el tercer punto de fusión más alto.Utilizado en superaleaciones de motores a reacción.",
+    "gridRow": 6,
+    "gridCol": 7
+  },
+  {
+    "number": 76,
+    "symbol": "Os",
+    "name": "Osmio",
+    "category": "transition-metal",
+    "atomicWeight": 190.23,
+    "meltingPoint": 3033,
+    "boilingPoint": 5012,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      14,
+      2
+    ],
+    "description": "Elemento natural más denso.Metal duro, quebradizo, de color blanco azulado.Utilizado en plumas estilográficas y contactos eléctricos.",
+    "gridRow": 6,
+    "gridCol": 8
+  },
+  {
+    "number": 77,
+    "symbol": "Ir",
+    "name": "Iridio",
+    "category": "transition-metal",
+    "atomicWeight": 192.22,
+    "meltingPoint": 2446,
+    "boilingPoint": 4428,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      15,
+      2
+    ],
+    "description": "El metal más resistente a la corrosión conocido.Segundo elemento más denso.Se utiliza en bujías, crisoles y el kilogramo estándar.",
+    "gridRow": 6,
+    "gridCol": 9
+  },
+  {
+    "number": 78,
+    "symbol": "Pt",
+    "name": "Platino",
+    "category": "transition-metal",
+    "atomicWeight": 195.08,
+    "meltingPoint": 1768.3,
+    "boilingPoint": 3825,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      17,
+      1
+    ],
+    "description": "Metal precioso, denso y maleable.Se utiliza en convertidores catalíticos, joyería y medicamentos de quimioterapia.",
+    "gridRow": 6,
+    "gridCol": 10
+  },
+  {
+    "number": 79,
+    "symbol": "Au",
+    "name": "oro",
+    "category": "transition-metal",
+    "atomicWeight": 196.97,
+    "meltingPoint": 1064.18,
+    "boilingPoint": 2856,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      1
+    ],
+    "description": "Metal precioso brillante, de color amarillo ligeramente rojizo.Muy valorado a lo largo de la historia.Utilizado en joyería, electrónica y moneda.",
+    "gridRow": 6,
+    "gridCol": 11
+  },
+  {
+    "number": 80,
+    "symbol": "Hg",
+    "name": "Mercurio",
+    "category": "transition-metal",
+    "atomicWeight": 200.59,
+    "meltingPoint": -38.83,
+    "boilingPoint": 356.73,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      2
+    ],
+    "description": "Sólo metal líquido en condiciones estándar.Utilizado en termómetros, barómetros e iluminación fluorescente.",
+    "gridRow": 6,
+    "gridCol": 12
+  },
+  {
+    "number": 81,
+    "symbol": "Tl",
+    "name": "talio",
+    "category": "post-transition-metal",
+    "atomicWeight": 204.38,
+    "meltingPoint": 304,
+    "boilingPoint": 1473,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      3
+    ],
+    "description": "Metal suave y gris que se empaña con el aire.Altamente tóxico.Utilizado en electrónica, óptica y medicina nuclear.",
+    "gridRow": 6,
+    "gridCol": 13
+  },
+  {
+    "number": 82,
+    "symbol": "Pb",
+    "name": "plomo",
+    "category": "post-transition-metal",
+    "atomicWeight": 207.2,
+    "meltingPoint": 327.46,
+    "boilingPoint": 1749,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      4
+    ],
+    "description": "Metal denso, blando y maleable.Conocido desde la antigüedad.Se utiliza en baterías, protección contra la radiación y construcción.",
+    "gridRow": 6,
+    "gridCol": 14
+  },
+  {
+    "number": 83,
+    "symbol": "Bi",
+    "name": "Bismuto",
+    "category": "post-transition-metal",
+    "atomicWeight": 208.98,
+    "meltingPoint": 271.4,
+    "boilingPoint": 1564,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      5
+    ],
+    "description": "Metal cristalino y quebradizo con un tinte rosado.Metal pesado menos tóxico.Utilizado en medicamentos y cosméticos.",
+    "gridRow": 6,
+    "gridCol": 15
+  },
+  {
+    "number": 84,
+    "symbol": "Po",
+    "name": "Polonio",
+    "category": "post-transition-metal",
+    "atomicWeight": 209,
+    "meltingPoint": 254,
+    "boilingPoint": 962,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      6
+    ],
+    "description": "Extremadamente raro y altamente radiactivo.Descubierto por Marie y Pierre Curie.Utilizado en dispositivos antiestáticos.",
+    "gridRow": 6,
+    "gridCol": 16
+  },
+  {
+    "number": 85,
+    "symbol": "At",
+    "name": "Astato",
+    "category": "metalloid",
+    "atomicWeight": 210,
+    "meltingPoint": 302,
+    "boilingPoint": 337,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      7
+    ],
+    "description": "Elemento natural más raro en la Tierra.Altamente radiactivo.Estudiado para su uso en el tratamiento dirigido al cáncer.",
+    "gridRow": 6,
+    "gridCol": 17
+  },
+  {
+    "number": 86,
+    "symbol": "Rn",
+    "name": "radón",
+    "category": "noble-gas",
+    "atomicWeight": 222,
+    "meltingPoint": -71,
+    "boilingPoint": -61.7,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8
+    ],
+    "description": "Gas noble radiactivo formado a partir de la desintegración del radio.Incoloro e inodoro.Segunda causa principal de cáncer de pulmón.",
+    "gridRow": 6,
+    "gridCol": 18
+  },
+  {
+    "number": 87,
+    "symbol": "Fr",
+    "name": "francio",
+    "category": "alkali-metal",
+    "atomicWeight": 223,
+    "meltingPoint": 27,
+    "boilingPoint": 677,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      1
+    ],
+    "description": "Segundo elemento natural más raro.El más inestable de los primeros 101 elementos.Extremadamente radiactivo.",
+    "gridRow": 7,
+    "gridCol": 1
+  },
+  {
+    "number": 88,
+    "symbol": "Ra",
+    "name": "radio",
+    "category": "alkaline-earth",
+    "atomicWeight": 226,
+    "meltingPoint": 696,
+    "boilingPoint": 1737,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "description": "Intensamente radiactivo, brillando débilmente de color azul.Descubierto por Marie Curie.Utilizado históricamente en pinturas luminosas.",
+    "gridRow": 7,
+    "gridCol": 2
+  },
+  {
+    "number": 89,
+    "symbol": "Ac",
+    "name": "actinio",
+    "category": "actinide",
+    "atomicWeight": 227,
+    "meltingPoint": 1050,
+    "boilingPoint": 3198,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      9,
+      2
+    ],
+    "description": "Jefe de la serie de actínidos.Intensamente radiactivo, de color azul brillante en la oscuridad.Utilizado en fuentes de neutrones.",
+    "gridRow": 10,
+    "gridCol": 1
+  },
+  {
+    "number": 90,
+    "symbol": "Th",
+    "name": "Torio",
+    "category": "actinide",
+    "atomicWeight": 232.04,
+    "meltingPoint": 1750,
+    "boilingPoint": 4788,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      10,
+      2
+    ],
+    "description": "Metal débilmente radiactivo.Potencial combustible nuclear alternativo al uranio.Utilizado en mantos de gas y soldadura TIG.",
+    "gridRow": 10,
+    "gridCol": 2
+  },
+  {
+    "number": 91,
+    "symbol": "Pa",
+    "name": "protactinio",
+    "category": "actinide",
+    "atomicWeight": 231.04,
+    "meltingPoint": 1572,
+    "boilingPoint": 4027,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      20,
+      9,
+      2
+    ],
+    "description": "Metal radiactivo, denso, de color gris plateado.Extremadamente raro.No tiene aplicaciones prácticas fuera de la investigación científica.",
+    "gridRow": 10,
+    "gridCol": 3
+  },
+  {
+    "number": 92,
+    "symbol": "U",
+    "name": "uranio",
+    "category": "actinide",
+    "atomicWeight": 238.03,
+    "meltingPoint": 1135,
+    "boilingPoint": 4131,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      21,
+      9,
+      2
+    ],
+    "description": "Metal radiactivo denso, de color blanco plateado.Combustible primario para centrales nucleares y armas nucleares.",
+    "gridRow": 10,
+    "gridCol": 4
+  },
+  {
+    "number": 93,
+    "symbol": "Np",
+    "name": "neptunio",
+    "category": "actinide",
+    "atomicWeight": 237,
+    "meltingPoint": 644,
+    "boilingPoint": 3902,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      22,
+      9,
+      2
+    ],
+    "description": "Primer elemento transuránico.Metal plateado y radiactivo.Utilizado en instrumentos de detección de neutrones.",
+    "gridRow": 10,
+    "gridCol": 5
+  },
+  {
+    "number": 94,
+    "symbol": "Pu",
+    "name": "plutonio",
+    "category": "actinide",
+    "atomicWeight": 244,
+    "meltingPoint": 640,
+    "boilingPoint": 3228,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      24,
+      8,
+      2
+    ],
+    "description": "Metal actínido radiactivo de aspecto plateado.Utilizado en armas nucleares, fuentes de energía para naves espaciales.",
+    "gridRow": 10,
+    "gridCol": 6
+  },
+  {
+    "number": 95,
+    "symbol": "Am",
+    "name": "americio",
+    "category": "actinide",
+    "atomicWeight": 243,
+    "meltingPoint": 1176,
+    "boilingPoint": 2011,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      8,
+      2
+    ],
+    "description": "Elemento radiactivo sintético.El uso más común es en detectores de humo domésticos como fuente ionizante.",
+    "gridRow": 10,
+    "gridCol": 7
+  },
+  {
+    "number": 96,
+    "symbol": "Cm",
+    "name": "curio",
+    "category": "actinide",
+    "atomicWeight": 247,
+    "meltingPoint": 1345,
+    "boilingPoint": 3110,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      25,
+      9,
+      2
+    ],
+    "description": "Nombrado en honor a Marie y Pierre Curie.Metal duro, denso y plateado.Utilizado como fuente de partículas alfa en la exploración espacial.",
+    "gridRow": 10,
+    "gridCol": 8
+  },
+  {
+    "number": 97,
+    "symbol": "Bk",
+    "name": "Berkelio",
+    "category": "actinide",
+    "atomicWeight": 247,
+    "meltingPoint": 1050,
+    "boilingPoint": 2627,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      27,
+      8,
+      2
+    ],
+    "description": "El nombre de Berkeley, California.Elemento radiactivo producido en reactores nucleares.Utilizado en investigaciones científicas.",
+    "gridRow": 10,
+    "gridCol": 9
+  },
+  {
+    "number": 98,
+    "symbol": "Cf",
+    "name": "californio",
+    "category": "actinide",
+    "atomicWeight": 251,
+    "meltingPoint": 900,
+    "boilingPoint": 1472,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      28,
+      8,
+      2
+    ],
+    "description": "Potente emisor de neutrones.Se utiliza en la puesta en marcha de reactores nucleares, la detección de metales y el tratamiento de ciertos cánceres.",
+    "gridRow": 10,
+    "gridCol": 10
+  },
+  {
+    "number": 99,
+    "symbol": "Es",
+    "name": "einstenio",
+    "category": "actinide",
+    "atomicWeight": 252,
+    "meltingPoint": 860,
+    "boilingPoint": 996,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      29,
+      8,
+      2
+    ],
+    "description": "Nombrado en honor a Albert Einstein.Descubierto entre los escombros de la primera prueba de una bomba de hidrógeno.Aún no hay aplicaciones prácticas.",
+    "gridRow": 10,
+    "gridCol": 11
+  },
+  {
+    "number": 100,
+    "symbol": "Fm",
+    "name": "Fermio",
+    "category": "actinide",
+    "atomicWeight": 257,
+    "meltingPoint": 1527,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      30,
+      8,
+      2
+    ],
+    "description": "El nombre de Enrico Fermi.Elemento sintético descubierto en restos de bomba H.No hay usos fuera de la investigación científica.",
+    "gridRow": 10,
+    "gridCol": 12
+  },
+  {
+    "number": 101,
+    "symbol": "Md",
+    "name": "mendelevio",
+    "category": "actinide",
+    "atomicWeight": 258,
+    "meltingPoint": 827,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      31,
+      8,
+      2
+    ],
+    "description": "Lleva el nombre de Dmitri Mendeleev.Producido en pequeñas cantidades por bombardeo de partículas.Utilizado sólo en investigación.",
+    "gridRow": 10,
+    "gridCol": 13
+  },
+  {
+    "number": 102,
+    "symbol": "No",
+    "name": "Nobelio",
+    "category": "actinide",
+    "atomicWeight": 259,
+    "meltingPoint": 827,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      2
+    ],
+    "description": "Nombrado en honor a Alfred Nobel.Elemento radiactivo sintético.Sólo se produce en aceleradores de partículas para investigación.",
+    "gridRow": 10,
+    "gridCol": 14
+  },
+  {
+    "number": 103,
+    "symbol": "Lr",
+    "name": "lawrencio",
+    "category": "actinide",
+    "atomicWeight": 266,
+    "meltingPoint": 1627,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      8,
+      3
+    ],
+    "description": "Miembro final de la serie actínida.El nombre de Ernest Lawrence.Sólo se produce en aceleradores de partículas.",
+    "gridRow": 10,
+    "gridCol": 15
+  },
+  {
+    "number": 104,
+    "symbol": "Rf",
+    "name": "Rutherfordio",
+    "category": "transition-metal",
+    "atomicWeight": 267,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      10,
+      2
+    ],
+    "description": "Primer elemento transactínido.El nombre de Ernest Rutherford.Altamente radiactivo con una vida media muy corta.",
+    "gridRow": 7,
+    "gridCol": 4
+  },
+  {
+    "number": 105,
+    "symbol": "Db",
+    "name": "dubnio",
+    "category": "transition-metal",
+    "atomicWeight": 268,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      11,
+      2
+    ],
+    "description": "El nombre de Dubna, Rusia.Elemento superpesado sintético.Sólo se han producido unos pocos átomos.",
+    "gridRow": 7,
+    "gridCol": 5
+  },
+  {
+    "number": 106,
+    "symbol": "Sg",
+    "name": "Seaborgio",
+    "category": "transition-metal",
+    "atomicWeight": 269,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      12,
+      2
+    ],
+    "description": "El nombre de Glenn T. Seaborg.Elemento sintético creado por bombardeo nuclear.Extremadamente inestable.",
+    "gridRow": 7,
+    "gridCol": 6
+  },
+  {
+    "number": 107,
+    "symbol": "Bh",
+    "name": "bohrio",
+    "category": "transition-metal",
+    "atomicWeight": 270,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      13,
+      2
+    ],
+    "description": "Lleva el nombre de Niels Bohr.Elemento superpesado sintético con vida media extremadamente corta.Sin usos prácticos.",
+    "gridRow": 7,
+    "gridCol": 7
+  },
+  {
+    "number": 108,
+    "symbol": "Hs",
+    "name": "hasio",
+    "category": "transition-metal",
+    "atomicWeight": 277,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      14,
+      2
+    ],
+    "description": "Lleva el nombre del estado alemán de Hesse.Elemento sintético con vida media extremadamente corta.Utilizado sólo en investigación.",
+    "gridRow": 7,
+    "gridCol": 8
+  },
+  {
+    "number": 109,
+    "symbol": "Mt",
+    "name": "meitnerio",
+    "category": "transition-metal",
+    "atomicWeight": 278,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      15,
+      2
+    ],
+    "description": "Nombrado en honor a la física Lise Meitner.Elemento sintético extremadamente radiactivo sin aplicaciones prácticas.",
+    "gridRow": 7,
+    "gridCol": 9
+  },
+  {
+    "number": 110,
+    "symbol": "Ds",
+    "name": "Darmstadtio",
+    "category": "transition-metal",
+    "atomicWeight": 281,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      17,
+      1
+    ],
+    "description": "Nombrado en honor a Darmstadt, Alemania.Elemento superpesado con una vida media extremadamente corta, del orden de microsegundos.",
+    "gridRow": 7,
+    "gridCol": 10
+  },
+  {
+    "number": 111,
+    "symbol": "Rg",
+    "name": "roentgenio",
+    "category": "transition-metal",
+    "atomicWeight": 282,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      1
+    ],
+    "description": "Lleva el nombre de Wilhelm Röntgen, descubridor de los rayos X.Elemento sintético con vida media extremadamente corta.",
+    "gridRow": 7,
+    "gridCol": 11
+  },
+  {
+    "number": 112,
+    "symbol": "Cn",
+    "name": "Copérnico",
+    "category": "transition-metal",
+    "atomicWeight": 285,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      2
+    ],
+    "description": "Lleva el nombre del astrónomo Nicolás Copérnico.Se prevé que sea un metal líquido volátil a temperatura ambiente.",
+    "gridRow": 7,
+    "gridCol": 12
+  },
+  {
+    "number": 113,
+    "symbol": "Nh",
+    "name": "nihonio",
+    "category": "unknown",
+    "atomicWeight": 286,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      3
+    ],
+    "description": "El nombre de Japón (Nihon).Primer elemento descubierto en un país asiático.Elemento sintético extremadamente inestable.",
+    "gridRow": 7,
+    "gridCol": 13
+  },
+  {
+    "number": 114,
+    "symbol": "Fl",
+    "name": "flerovio",
+    "category": "unknown",
+    "atomicWeight": 289,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      4
+    ],
+    "description": "Nombrado en honor al Laboratorio Flerov.Se prevé que el elemento superpesado será volátil.Cerca de la propuesta isla de estabilidad.",
+    "gridRow": 7,
+    "gridCol": 14
+  },
+  {
+    "number": 115,
+    "symbol": "Mc",
+    "name": "moscovio",
+    "category": "unknown",
+    "atomicWeight": 290,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      5
+    ],
+    "description": "El nombre del Óblast de Moscú.Elemento superpesado sintético.Sólo se han observado unos pocos átomos.",
+    "gridRow": 7,
+    "gridCol": 15
+  },
+  {
+    "number": 116,
+    "symbol": "Lv",
+    "name": "hígado",
+    "category": "unknown",
+    "atomicWeight": 293,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      6
+    ],
+    "description": "El nombre del Laboratorio Nacional Lawrence Livermore.Extremadamente radiactivo con una vida media de milisegundos.",
+    "gridRow": 7,
+    "gridCol": 16
+  },
+  {
+    "number": 117,
+    "symbol": "Ts",
+    "name": "Tennessee",
+    "category": "unknown",
+    "atomicWeight": 294,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      7
+    ],
+    "description": "Lleva el nombre de Tennessee, EE. UU.Segundo elemento más pesado conocido.Se prevé que tenga algunas propiedades similares a las de los halógenos.",
+    "gridRow": 7,
+    "gridCol": 17
+  },
+  {
+    "number": 118,
+    "symbol": "Og",
+    "name": "Oganesson",
+    "category": "unknown",
+    "atomicWeight": 294,
+    "meltingPoint": null,
+    "boilingPoint": null,
+    "electronShells": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      8
+    ],
+    "description": "Elemento más pesado conocido.El nombre de Yuri Oganessian.Se prevé que sea un gas noble sólido.Extremadamente inestable.",
+    "gridRow": 7,
+    "gridCol": 18
+  }
+]

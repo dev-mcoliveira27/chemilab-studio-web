@@ -1,0 +1,46 @@
+<div class="relative flex items-center justify-center w-full h-full atom-scene">
+  <!-- Dynamic Scaling Container -->
+  <div class="relative flex items-center justify-center transition-transform duration-700 ease-out" 
+       [style.transform]="'scale(' + atomScale() + ')'">
+    
+    <!-- Nucleus -->
+    <div class="absolute z-50">
+      <div class="relative pulse-glow">
+        @for (p of protons(); track $index) {
+          <div class="absolute" [style.left.px]="p.x" [style.top.px]="p.y">
+            <cl-proton />
+          </div>
+        }
+        @for (n of neutrons(); track $index) {
+          <div class="absolute" [style.left.px]="n.x" [style.top.px]="n.y">
+            <cl-neutron />
+          </div>
+        }
+      </div>
+    </div>
+
+    <!-- Shells -->
+    <div class="absolute">
+      @for (shell of shells(); track $index) {
+        <div class="absolute -translate-x-1/2 -translate-y-1/2 rounded-full border border-primary/20 shadow-[inset_0_0_10px_rgba(0,227,253,0.05)]"
+             [style.width.px]="shell.size"
+             [style.height.px]="shell.size"
+             [style.z-index]="shell.zIndex">
+          
+          @for (e of shell.electrons; track $index) {
+            <div class="absolute top-0 left-0 w-full h-full"
+                 [style.transform]="'rotate(' + e.angle + 'deg)'">
+              <div class="electron-spinner absolute top-0 left-0 w-full h-full"
+                   [style.animation-duration.s]="shell.speed">
+                 <div class="absolute top-0 left-1/2">
+                   <cl-electron />
+                 </div>
+              </div>
+            </div>
+          }
+        </div>
+      }
+    </div>
+
+  </div>
+</div>

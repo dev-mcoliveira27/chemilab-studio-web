@@ -1,0 +1,16 @@
+<footer
+  class="py-8 bg-surface-container-low/30 rounded-3xl px-8 flex flex-wrap items-center justify-between gap-6 border border-outline-variant/5">
+  <div class="flex items-center gap-5 overflow-x-auto pb-2 md:pb-0 custom-scrollbar">
+    @for (cat of categories; track cat.label) {
+    <div class="flex items-center gap-2 whitespace-nowrap">
+      <div class="w-3 h-3 rounded border" [class]="cat.colorClass + ' ' + cat.borderClass"></div>
+      <span class="text-[10px] font-label text-on-surface-variant uppercase tracking-tighter">{{ cat.label | translate }}</span>
+    </div>
+    }
+  </div>
+
+  <!-- <div class="flex gap-4">
+    <button class="text-xs font-label text-outline hover:text-primary transition-colors">{{ 'LEGEND.DATA_EXPORT' | translate }}</button>
+    <button class="text-xs font-label text-outline hover:text-primary transition-colors">{{ 'LEGEND.SHORTCUTS' | translate }}</button>
+  </div> -->
+</footer>

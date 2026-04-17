@@ -1,0 +1,17 @@
+<div
+  class="element-tile group cursor-pointer aspect-square rounded p-1 flex flex-col justify-between element-glow transition-all duration-300 border"
+  [class]="'cat-' + element().category + ' hover-cat-' + element().category"
+  [class.element-selected]="isSelected()"
+  (click)="onClick()"
+>
+  <span class="text-[9px] font-label text-outline leading-none">{{ element().number }}</span>
+  <span
+    class="text-base font-headline font-bold text-center"
+    [class]="'text-cat-' + element().category"
+  >
+    {{ element().symbol }}
+  </span>
+  <span class="text-[7px] font-label text-outline text-center uppercase truncate">
+    {{ element().name }}
+  </span>
+</div>

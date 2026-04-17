@@ -1,0 +1,62 @@
+@if (element(); as el) {
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Main Detail Card -->
+    <div class="md:col-span-2 glass-panel rounded-3xl p-8 relative overflow-hidden flex flex-col justify-between min-h-[360px] border border-primary/10">
+      <div class="relative z-10">
+        <!-- Live Simulation Badge -->
+        <div class="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 rounded-full mb-6">
+          <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+          <span class="text-[10px] font-label font-bold text-primary tracking-widest uppercase">{{ 'PANEL.LIVE_SIMULATION' | translate }}</span>
+        </div>
+
+        <h3 class="text-4xl font-headline font-bold mb-2">{{ el.name }} ({{ el.symbol }})</h3>
+        <p class="text-on-surface-variant max-w-sm">{{ el.description }}</p>
+      </div>
+
+      <!-- Atom Simulation Background: perfectly contained and visually behind other elements -->
+      <div class="absolute right-[30px] top-0 bottom-[50px] w-[45%] flex items-center justify-center pointer-events-none opacity-30 mix-blend-screen overflow-hidden rounded-r-3xl z-0">
+        <cl-atom-model [element]="el" />
+      </div>
+
+      <!-- Properties (relative positioning prevents overlap) -->
+      <div class="relative grid grid-cols-3 gap-8 z-10 mt-8">
+        <div>
+          <p class="text-[10px] text-outline uppercase tracking-widest mb-1">{{ 'PANEL.ATOMIC_WEIGHT' | translate }}</p>
+          <p class="text-xl font-headline font-bold">{{ displayWeight() }}</p>
+        </div>
+        <div>
+          <p class="text-[10px] text-outline uppercase tracking-widest mb-1">{{ 'PANEL.MELTING_POINT' | translate }}</p>
+          <p class="text-xl font-headline font-bold">{{ displayMeltingPoint() }}</p>
+        </div>
+        <div>
+          <p class="text-[10px] text-outline uppercase tracking-widest mb-1">{{ 'PANEL.BOILING_POINT' | translate }}</p>
+          <p class="text-xl font-headline font-bold">{{ displayBoilingPoint() }}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Side Cards -->
+    <div class="flex flex-col gap-6">
+      <!-- Shell Configuration -->
+      <div class="glass-panel rounded-3xl p-6 flex-1 border border-outline-variant/10">
+        <h4 class="text-sm font-label font-bold text-on-surface uppercase tracking-widest mb-4">{{ 'PANEL.SHELL_CONFIG' | translate }}</h4>
+        <cl-shell-config-chart [shells]="el.electronShells" />
+      </div>
+
+      <!-- Chemical Lab CTA -->
+      <div class="bg-gradient-to-br from-primary to-primary-dim rounded-3xl p-6 text-on-primary">
+        <h4 class="text-sm font-label font-bold uppercase tracking-widest mb-4">{{ 'PANEL.CHEMICAL_LAB' | translate }}</h4>
+        <p class="text-xs mb-6 opacity-90">{{ 'PANEL.SIMULATE_REACTIONS_1' | translate }} {{ el.name }} {{ 'PANEL.SIMULATE_REACTIONS_2' | translate }}</p>
+        <button class="w-full py-4 bg-on-primary text-primary font-bold rounded-xl flex items-center justify-center gap-2 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] transition-all duration-300">
+          <span class="material-symbols-outlined">science</span>
+          {{ 'PANEL.START_EXPERIMENT' | translate }}
+        </button>
+      </div>
+    </div>
+  </section>
+} @else {
+  <section class="glass-panel rounded-3xl p-12 border border-outline-variant/10 text-center">
+    <span class="material-symbols-outlined text-5xl text-outline/30 mb-4 block">touch_app</span>
+    <p class="text-on-surface-variant">{{ 'PANEL.SELECT_PROMPT' | translate }}</p>
+  </section>
+}
